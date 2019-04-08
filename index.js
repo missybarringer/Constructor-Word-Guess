@@ -5,12 +5,17 @@ var chalk    	 = require("chalk"); // allows us to change the font color of cons
 // letters entry
 var letterArray = "abcdefghijklmnopqrstuvwxyz";
 
-// List of words to choose from
+// List of Dog breeds words to choose from
 var dogBreeds = [
   "afghan hound",
   "boxer",
   "chow chow",
-  "poodle"
+  "poodle",
+  "corgi",
+  "great dane",
+  "dalmation",
+  "greyhound",
+  "scottish terrier"
 ];
 
 // Pick Random index from dogBreeds array
@@ -27,8 +32,9 @@ var incorrectLetters = [];
 var correctLetters = [];
 
 // Guesses left
-var guessesLeft = 3;
+var guessesLeft = 10;
 
+console.log(chalk.cyan.bold("\n***Play Dog Breeds Hangman***\n"));
 function startGame() {
   // Generates new word for Word constructor if requireNewWord is true
   if (requireNewWord) {
@@ -103,7 +109,7 @@ function startGame() {
               // Call function to keep playing
               startGame();
             } else {
-              console.log("Sorry, you lose!\n");
+              console.log(chalk.black.bgWhite.bold("Sorry, you lose!\n"));
 
               restartGame();
             }
@@ -115,7 +121,7 @@ function startGame() {
         }
       });
   } else {
-    console.log(chalk.magenta("YOU WIN!\n"));
+    console.log(chalk.black.bgGreen.bold("YOU WIN!\n"));
 
     restartGame();
   }
@@ -140,7 +146,7 @@ function restartGame() {
         requireNewWord = true;
         incorrectLetters = [];
         correctLetters = [];
-        guessesLeft = 3;
+        guessesLeft = 10;
         startGame();
       } else {
         return;
