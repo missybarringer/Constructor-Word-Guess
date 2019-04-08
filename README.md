@@ -6,7 +6,7 @@ ____________________________________
 ## Technology
 * Command line game using Javascript and Constructors
 * [GitHub Repository Link](https://github.com/missybarringer/Constructor-Word-Guess.git)
-* [Click here to View Liri App in action](http://www.webwabisabi.com/assets/media/CWG.webm)
+* [Click here to View Constructor Word Guess App in action](http://www.webwabisabi.com/assets/media/CWG.mp4)
 ____________________________________
 
 ## The completed game should meet the following criteria:
