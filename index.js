@@ -1,3 +1,5 @@
+// added to portfolio at https://missybarringer.github.io/ & www.webwabisabi.com
+
 var Word = require("./word.js"); // This contains the Word constructor
 var inquirer = require("inquirer"); // npm package inquirer to receive user input
 var chalk    	 = require("chalk"); // allows us to change the font color of console.log responses
