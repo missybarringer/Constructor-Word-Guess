@@ -1,4 +1,4 @@
-# Constructor-Word-Guess
+# Dog Breeds Hangman - Constructor-Word-Guess
 
 ## Contributors
 @missybarringer
