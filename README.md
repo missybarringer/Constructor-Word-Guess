@@ -52,4 +52,4 @@ ____________________________________
 * e-mail: barringer.margaret@gmail.com
 * Twitter: @webwabisabi_com
 * Instagram: @webwabisabi_com
-* Added to [Personal Portfolio webpage](https://missybarringer.github.io/)
+* [WebWabiSabi website](www.webwabisabi.com)
