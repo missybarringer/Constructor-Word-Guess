@@ -52,4 +52,4 @@ ____________________________________
 * e-mail: barringer.margaret@gmail.com
 * Twitter: @webwabisabi_com
 * Instagram: @webwabisabi_com
-* [WebWabiSabi website](www.webwabisabi.com)
+* [WebWabiSabi website](http://www.webwabisabi.com)
